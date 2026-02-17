@@ -6,6 +6,5 @@ export default function App() {
   if (userData) {
     return <Redirect href="/(private)/home" />;
   }
-
   return <Redirect href="/login" />;
 }
